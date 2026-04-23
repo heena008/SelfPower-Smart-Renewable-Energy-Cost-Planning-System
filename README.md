@@ -1,4 +1,4 @@
-# SelfPower-Smart-Renewable-Energy-Cost-Planning-System
+# SelfPower-Smart Renewable Energy Cost Planning System
 
 A location-aware intelligent system that helps individuals and small businesses design, simulate, and optimize renewable energy setups (solar, wind, biogas, and waste-to-energy) to reduce electricity costs and increase energy independence.
 
