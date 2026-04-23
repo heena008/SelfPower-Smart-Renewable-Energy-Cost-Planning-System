@@ -1,15 +1,110 @@
-# ds-modeling-pipeline
+# SelfPower 
 
-Here you find a Skeleton project for building a simple model in a python script or notebook and log the results on MLFlow.
+Project Overview 
 
-There are two ways to do it: 
-* In Jupyter Notebooks:
-    We train a simple model in the [jupyter notebook](notebooks/EDA-and-modeling.ipynb), where we select only some features and do minimal cleaning. The hyperparameters of feature engineering and modeling will be logged with MLflow
+Title: Optimizing Self-Sufficiency in Energy Transition: A Cost-Effective Model for Small-Scale Renewable Energy Systems 
 
-* With Python scripts:
-    The [main script](modeling/train.py) will go through exactly the same process as the jupyter notebook and also log the hyperparameters with MLflow
+Objective: 
 
-Data used is the [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
+Develop a mathematical model and decision-support tool that helps individuals or small businesses design a cost-effective renewable energy system (solar, wind, or a hybrid) that is self-sustaining and financially viable without relying on government subsidies. 
+
+ 
+
+Step-by-Step Breakdown 
+
+Layer 1: Energy System Modeling 
+
+Concept: You’ll create a model for a small-scale renewable energy system that includes options for solar, wind, and battery storage.  
+
+Parameters:  
+
+Solar panel output (based on location, panel efficiency, angle of installation, etc.).  
+
+Wind turbine performance (depending on local wind speed and turbine specifications).  
+
+Energy consumption profiles (how much energy the individual or business consumes per day, month, year).  
+
+Battery storage (to store excess energy for cloudy days or calm winds).  
+
+Mathematics: Use CFD models for wind energy potential and solar radiation modeling for different regions, calculating the optimal system size and energy mix that minimizes cost and maximizes output.  
+
+Goal: Simulate a small-scale hybrid renewable energy system for a residential or small business setup, calculating:  
+
+Optimal capacity (how many solar panels, wind turbines, and batteries).  
+
+Expected energy production over time.  
+
+Initial investment vs long-term savings.  
+
+ 
+
+Layer 2: Financial Modeling for Cost-Effectiveness 
+
+Concept: The challenge is not just technical; you’ll also need to model the financial side of the transition. This layer will help individuals/businesses make informed financial decisions.  
+
+Inputs:  
+
+Initial investment cost: Cost of installation, equipment (panels, turbines, batteries).  
+
+Operational and maintenance costs: For solar panels, turbines, and batteries over the life of the system.  
+
+Energy prices: Current and projected energy costs from the grid.  
+
+Return on Investment (ROI): How long it takes to break even on the initial investment, and when the system will become profitable.  
+
+Optimization Model:  
+
+Use cost-benefit analysis to calculate the payback period and net present value (NPV) of different system configurations.  
+
+Compare solar-only, wind-only, and hybrid systems in terms of cost efficiency, energy independence, and long-term sustainability.  
+
+Incorporate factors like energy price fluctuations (which could influence when grid energy becomes more or less attractive compared to self-generation).  
+
+Goal: Develop a model that balances initial costs with long-term savings, helping users make the decision to switch to renewables while minimizing financial risk.  
+
+ 
+
+Layer 3: Self-Sufficiency Strategy 
+
+Concept: This part of the project will explore how to reduce reliance on government subsidies and become truly self-sufficient.  
+
+Approach:  
+
+Scenario Analysis: Assess how different energy production mixes (solar, wind, or both) allow individuals/businesses to reduce their grid dependence.  
+
+Autonomy: Identify the level of energy autonomy that can be achieved—how much of the energy needs can be met through renewables alone, and how much reliance can be placed on battery storage or backup systems.  
+
+Cost vs Autonomy: Create a break-even model that shows the cost-effectiveness of achieving complete self-sufficiency with renewables.  
+
+Financial Independence without Government Subsidies:  
+
+Include realistic financing options for individuals to invest in solar or wind energy, such as loans, crowdfunding, or private investments.  
+
+Explore peer-to-peer energy trading systems or community renewable energy cooperatives where small businesses and homes can share excess energy.  
+
+Goal: Show how people and businesses can reduce their grid dependency, use renewables for 100% of their energy needs, and become self-reliant without relying on subsidies, especially if those subsidies decrease over time.  
+
+ 
+
+Layer 4: Decision-Support Tool / Dashboard 
+
+Concept: You’ll build a user-friendly web app or dashboard that integrates all the models you’ve developed, allowing users to input their own energy consumption and geographic location, and get:  
+
+A tailored renewable energy system design (how many solar panels, wind turbines, and batteries).  
+
+A detailed cost analysis (including investment, savings, and ROI).  
+
+A timeline showing when the system will become financially self-sustaining.  
+
+The degree of autonomy achievable, based on different energy mixes.  
+
+Tools:  
+
+Streamlit or Dash for building the interactive dashboard.  
+
+Plotly for interactive charts (ROI over time, energy savings, autonomy levels).  
+
+Goal: Provide a real-time, interactive tool that individuals/businesses can use to calculate their own transition to renewable energy, helping them understand both the technical and financial aspects of the energy transition process.  
 
 ## Requirements:
 
