@@ -1,10 +1,10 @@
-# ⚡ Smart Renewable Energy Cost Optimization System
+# SelfPower-Smart-Renewable-Energy-Cost-Planning-System
 
 A location-aware intelligent system that helps individuals and small businesses design, simulate, and optimize renewable energy setups (solar, wind, biogas, and waste-to-energy) to reduce electricity costs and increase energy independence.
 
 ---
 
-## 🌍 Problem
+##  Problem
 
 Electricity prices are rising globally, and most users struggle to answer:
 
@@ -18,7 +18,7 @@ Current tools are either too technical or too simplistic to make real-world deci
 
 ---
 
-## 💡 Solution
+##  Solution
 
 This system simulates complete renewable energy setups based on:
 
@@ -32,7 +32,7 @@ It provides clear decision support instead of raw data.
 
 ---
 
-## ⚙️ Core Features
+##  Core Features
 
 ### 🌞 Energy Simulation Engine
 - Hourly simulation of energy generation and demand
@@ -61,7 +61,7 @@ It provides clear decision support instead of raw data.
 
 ---
 
-## 📊 Output Example
+## Output Example
 
 - Monthly electricity cost: €120 → €45  
 - Energy self-sufficiency: 72%  
@@ -71,7 +71,7 @@ It provides clear decision support instead of raw data.
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 - Modular energy source system
 - Core simulation engine (hourly resolution)
@@ -81,7 +81,7 @@ It provides clear decision support instead of raw data.
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Real-time electricity price integration
 - EV charging optimization
@@ -91,7 +91,7 @@ It provides clear decision support instead of raw data.
 
 ---
 
-## 🧠 Tech Stack (Planned)
+##  Tech Stack (Planned)
 
 - Python (core engine)
 - NumPy / Pandas (simulation)
@@ -102,7 +102,7 @@ It provides clear decision support instead of raw data.
 
 ---
 
-## 🎯 Goal
+## Goal
 
 To make renewable energy planning:
 
