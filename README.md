@@ -110,6 +110,71 @@ To make renewable energy planning:
 
 ---
 
-## 📌 Status
+##  Status
 
 Early-stage development / research prototype
+
+## Full repository structure
+
+selfpower/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── .env.example
+│
+├── data/                        # small datasets / cached API results
+│   └── sample_weather.csv
+│
+├── notebooks/                  # experiments (ML, testing)
+│   └── solar_experiment.ipynb
+│
+├── src/
+│   ├── main.py                 # entry point
+│
+│   ├── config/
+│   │   ├── locations.py        # Germany, India, etc.
+│   │   └── profiles.py         # user types
+│
+│   ├── core/
+│   │   ├── simulation.py       # main engine loop
+│   │   └── energy_balance.py
+│
+│   ├── modules/
+│   │   ├── solar.py
+│   │   ├── wind.py
+│   │   ├── biogas.py
+│   │   └── waste.py
+│
+│   ├── storage/
+│   │   └── battery.py
+│
+│   ├── grid/
+│   │   └── grid_logic.py       # buy/sell logic
+│
+│   ├── ml/
+│   │   ├── solar_forecast.py
+│   │   └── demand_model.py
+│
+│   ├── api/
+│   │   ├── weather_api.py
+│   │   └── price_api.py
+│
+│   ├── optimization/
+│   │   └── dispatch.py
+│
+│   └── llm/
+│       └── advisor.py          # recommendation logic
+│
+├── app/
+│   └── app.py                  # Streamlit UI
+│
+├── tests/
+│   ├── test_solar.py
+│   ├── test_battery.py
+│   └── test_simulation.py
+│
+└── .github/
+    └── workflows/
+        └── ci.yml
+
