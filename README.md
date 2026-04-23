@@ -115,7 +115,7 @@ To make renewable energy planning:
 Early-stage development / research prototype
 
 ## Full repository structure
-
+```BASH
 selfpower/
 │
 ├── README.md
@@ -178,3 +178,4 @@ selfpower/
     └── workflows/
         └── ci.yml
 
+```
